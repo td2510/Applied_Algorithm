@@ -75,5 +75,4 @@ int main(){
             cout<<timeCall[phone]<<endl;
         }
     } while (text != "#");
-    
 }
