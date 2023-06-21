@@ -1,3 +1,4 @@
+//need fix
 #include <bits/stdc++.h>
 #include <string>
 #include <string.h>
@@ -5,9 +6,11 @@
 #include <stdlib.h>
 #include <iostream> 
 using namespace std;
+const int N=1e6+1;
 
-int n, a[20];
-pair<int, bool> S0[20], S1[20];
+int n;
+long long a[N];
+pair<long long, bool> S0[N], S1[N];
 
 int main(){
     cin >> n;
@@ -58,7 +61,7 @@ int main(){
             }
         }
     }
-    long ans = -1e18;
+    long long ans = -1e18;
     for(int i = 0; i < n; i++){
         if((S0[i].second = true) && (ans < S0[i].first)) ans = S0[i].first;
     }
