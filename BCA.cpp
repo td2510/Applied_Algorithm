@@ -1,3 +1,4 @@
+//adjust cmt
 #include <bits/stdc++.h>
 #include <string>
 #include <string.h>
@@ -59,7 +60,7 @@ void Try(int k){ //T[k]: danh sach giao vien day mon k
             load[t] += 1;
             if(k == n) solution();
             else{
-                if(load[t] < res) Try (k+1);
+                if(load[t] < res) Try (k+1);//nhanh can
             }
             load[t] -= 1;
         }
