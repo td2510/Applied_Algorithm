@@ -5,7 +5,9 @@
 #include <stdlib.h>
 #include <iostream>
 #include <queue>
-#include <functional> 
+#include <functional>
+#include <vector>
+#include<algorithm>
 using namespace std;
 const int N=1e6+1;
 
